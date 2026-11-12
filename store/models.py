@@ -74,6 +74,7 @@ class Cart(models.Model):
 
     def __str__(self):
         return f"Cart {self.id} - {self.user}"
+    
     # Actualizar    
     @property
     def total(self):
